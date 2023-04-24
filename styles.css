@@ -221,3 +221,13 @@ footer a:hover {
   flex: 0 0 200px;
   padding: 10px;
 }
+
+.button-holder {
+  text-align: center;
+}
+
+.footer { 
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+}
