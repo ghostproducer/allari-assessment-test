@@ -78,24 +78,6 @@ footer p {
   margin: 0;
 }
 
-.columns {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.column-side {
-  flex: 15%;
-  background-color: #f2f2f2;
-}
-
-.column-main {
-  /* flex: 70%; */
-  background-color: #f2f2f2;
-  text-align: center;
-}
-
 /* Styles for the digital clock */
 .digital-clock {
   font-size: 2rem;
@@ -211,4 +193,31 @@ footer a {
 
 footer a:hover {
   color: #007bff;
+}
+
+
+
+
+.columns {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* width: 100%; */
+}
+
+
+
+.column-left {
+  flex: 0 0 200px;
+  padding: 10px;
+}
+
+.column-main {
+  flex: 1;
+  padding: 10px;
+}
+
+.column-right {
+  flex: 0 0 200px;
+  padding: 10px;
 }
